@@ -19,12 +19,13 @@ Make sure the following Qt & MinGW path in the system path
 4. Specify the generator as `MinGW Makefiles` and select the `Specify native compilers`, then go **Next**.
 5. Set the your gcc & g++ path. E.g. `C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/gcc.exe` `C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/g++.exe`, then press **Finish** and wait for the configure.
 6. Search `WITH_MSMF` and uncheck it (Without `Microsoft Media Foundation`).
-7. Press **Generate**. The log will show `Configuring done` and `Generating done`, which means CMake successed.
+7. Search `WITH_OPENGL` `WITH_QT` and check.
+8. Press **Generate**. The log will show `Configuring done` and `Generating done`, which means CMake successed.
 
 ## Compiling
 1. Open the Windows CMD and enter the build folder. `cd D:\OpenCV\opencv-4.0.0-build`
 2. Make `mingw32-make -j 4 CPPFLAGS=-DSTRSAFE_NO_DEPRECATE`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjg0MzE5OTEsLTEzOTQyNTQwNzVdfQ
-==
+eyJoaXN0b3J5IjpbMTcwNjAxNTc3MiwtMTM2ODQzMTk5MSwtMT
+M5NDI1NDA3NV19
 -->
