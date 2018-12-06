@@ -24,8 +24,9 @@ Make sure the following Qt & MinGW path in the system path
 
 ## Compiling
 1. Open the Windows CMD and enter the build folder. `cd D:\OpenCV\opencv-4.0.0-build`
-2. Make `mingw32-make -j 4 CPPFLAGS=-DSTRSAFE_NO_DEPRECATE`
+2. 
+3. Make `mingw32-make -j 4 CPPFLAGS=-DSTRSAFE_NO_DEPRECATE`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNjAxNTc3MiwtMTM2ODQzMTk5MSwtMT
-M5NDI1NDA3NV19
+eyJoaXN0b3J5IjpbLTE0NTIzMzMzNzcsLTEzNjg0MzE5OTEsLT
+EzOTQyNTQwNzVdfQ==
 -->
