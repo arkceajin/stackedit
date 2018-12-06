@@ -20,7 +20,7 @@ Make sure the following Qt & MinGW path in the system path
 5. Set the your gcc & g++ path. E.g. `C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/gcc.exe` `C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/g++.exe`, then press **Finish** and wait for the configure.
 6. Search `WITH_MSMF` and uncheck it (Without `Microsoft Media Foundation`).
 7. Search `WITH_OPENGL` `WITH_QT` and check.
-8. Press **Generate**. The log will show `Configuring done` and `Generating done`, which means CMake successed.
+8. Press **Generate**. The log will show `Configuring done` and `Generating done`, which means CMake succeed.
 
 ## Compiling
 1. Open the Windows CMD and enter the build folder. `cd D:\OpenCV\opencv-4.0.0-build`
@@ -29,6 +29,6 @@ Make sure the following Qt & MinGW path in the system path
 If you got error of `sprintf_instead_use_StringCbPrintfA_or_StringCchPrintfA`, add `#define NO_DSHOW_STRSAFE` before the line `#include "DShow.h"` in the file `opencv-4.0.0/modules/videoio/src/cap_dshow.cpp`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNzQxMjM5MSwtODYzOTExNzIzLC0xMz
-Y4NDMxOTkxLC0xMzk0MjU0MDc1XX0=
+eyJoaXN0b3J5IjpbNDg1NTk1MDY1LC0yMTc0MTIzOTEsLTg2Mz
+kxMTcyMywtMTM2ODQzMTk5MSwtMTM5NDI1NDA3NV19
 -->
