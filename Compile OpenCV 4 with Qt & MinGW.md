@@ -24,11 +24,11 @@ Make sure the following Qt & MinGW path in the system path
 
 ## Compiling
 1. Open the Windows CMD and enter the build folder. `cd D:\OpenCV\opencv-4.0.0-build`
-2. Make `mingw32-make -j 4 CPPFLAGS=-DSTRSAFE_NO_DEPRECATE`
+2. Make `mingw32-make -j 4`
 
 If you got error of `sprintf_instead_use_StringCbPrintfA_or_StringCchPrintfA`, add `#define NO_DSHOW_STRSAFE` before the line `#include "DShow.h"` in the file `opencv-4.0.0/modules/videoio/src/cap_dshow.cpp`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MzkxMTcyMywtMTM2ODQzMTk5MSwtMT
-M5NDI1NDA3NV19
+eyJoaXN0b3J5IjpbLTIxNzQxMjM5MSwtODYzOTExNzIzLC0xMz
+Y4NDMxOTkxLC0xMzk0MjU0MDc1XX0=
 -->
