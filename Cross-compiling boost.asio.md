@@ -35,7 +35,6 @@ After this, the libs will be generated under folder `source path/stage/lib/`
 > set(CMAKE_C_COMPILER
 > /opt/freescale/usr/local/gcc-4.3.3-glibc-2.8-cs2009q1-203/arm-none-linux-gnueabi/bin/arm-none-linux-gnueabi-gcc)
 > 
-> 
 > set(CMAKE_CXX_COMPILER
 > /opt/freescale/usr/local/gcc-4.3.3-glibc-2.8-cs2009q1-203/arm-none-linux-gnueabi/bin/arm-none-linux-gnueabi-g++)
 > 
@@ -49,6 +48,6 @@ After this, the libs will be generated under folder `source path/stage/lib/`
 > target_link_libraries(ASIOTest boost_system)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDI5MDc4NzQsNzgxNzYyNTEyLDI2MD
-k1OTU4MSw4MDQ4MzMxMDZdfQ==
+eyJoaXN0b3J5IjpbMTEyMzMzOTIxOCw3ODE3NjI1MTIsMjYwOT
+U5NTgxLDgwNDgzMzEwNl19
 -->
