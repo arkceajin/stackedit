@@ -6,7 +6,7 @@
 3. ARM-GCC
 
 ## Build
-**boost.asio** require **boost.system** which have to be compiled separetely, so basicly there is thing to do with **boost.asio** because it's a header-only librairy.
+**boost.asio** require **boost.system** which have to be compiled separetely, so basicly there is thing to do with **boost.asio** because it's a header-only librairy. Only need c
 
 1. Unzip the source.
 `tar --bzip2 -xf boost_1_67_0.tar.bz2 && cd boost_1_67_0` 
@@ -15,6 +15,6 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NDU5NjkzMywyNjA5NTk1ODEsODA0OD
-MzMTA2XX0=
+eyJoaXN0b3J5IjpbLTYyNzQ4NjU0LDI2MDk1OTU4MSw4MDQ4Mz
+MxMDZdfQ==
 -->
