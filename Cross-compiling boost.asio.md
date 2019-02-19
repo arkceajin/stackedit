@@ -27,26 +27,22 @@ if ! gcc in [ feature.values <toolset> ]
 `./b2 toolset=gcc-arm`
 After this, the libs will be generated under folder `source path/stage/lib/`
 5. In the **CMakeLists.txt**
-> project(ASIOTest)
-> cmake_minimum_required(VERSION 2.4)
-> 
-> set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++0x")
-> 
-> set(CMAKE_C_COMPILER
-> /opt/freescale/usr/local/gcc-4.3.3-glibc-2.8-cs2009q1-203/arm-none-linux-gnueabi/bin/arm-none-linux-gnueabi-gcc)
-> set(CMAKE_CXX_COMPILER
-> /opt/freescale/usr/local/gcc-4.3.3-glibc-2.8-cs2009q1-203/arm-none-linux-gnueabi/bin/arm-none-linux-gnueabi-g++)
-> 
-> set(BOOST_PATH "/home/fit/boost_1_67_0")
-> 
-> include_directories(${BOOST_PATH})
-> link_directories(${BOOST_PATH}/stage/lib)
-> 
-> add_executable(ASIOTest main.cpp)
-> 
-> target_link_libraries(ASIOTest boost_system)
+
+    project(ASIOTest) cmake_minimum_required(VERSION 2.4)
+    
+    set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++0x")
+    
+    set(CMAKE_C_COMPILER /opt/freescale/usr/local/gcc-4.3.3-glibc-2.8-cs2009q1-203/arm-none-linux-gnueabi/bin/arm-none-linux-gnueabi-gcc) set(CMAKE_CXX_COMPILER /opt/freescale/usr/local/gcc-4.3.3-glibc-2.8-cs2009q1-203/arm-none-linux-gnueabi/bin/arm-none-linux-gnueabi-g++)
+    
+    set(BOOST_PATH "/home/fit/boost_1_67_0")
+    
+    include_directories(${BOOST_PATH}) link_directories(${BOOST_PATH}/stage/lib)
+    
+    add_executable(ASIOTest main.cpp)
+    
+    target_link_libraries(ASIOTest boost_system)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNTQ3MTA0MCw3ODE3NjI1MTIsMjYwOT
+eyJoaXN0b3J5IjpbMTI4NDkyNjA1Niw3ODE3NjI1MTIsMjYwOT
 U5NTgxLDgwNDgzMzEwNl19
 -->
