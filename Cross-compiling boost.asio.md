@@ -5,11 +5,15 @@
 2. CMake (For demonstration)
 3. ARM-GCC
 
+## Build
+unzip the source.
+
+tar --bzip2 -xf boost_1_67_0.tar.bz2
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgyOTIwMTIxLDI2MDk1OTU4MSw4MDQ4Mz
-MxMDZdfQ==
+eyJoaXN0b3J5IjpbLTIxMjkxMjQ4NjcsMjYwOTU5NTgxLDgwND
+gzMzEwNl19
 -->
