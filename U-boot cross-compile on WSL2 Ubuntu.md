@@ -12,11 +12,8 @@ Install dependencies
     sudo apt install make gcc bison flex
 Install arm-toolchain
 
-    sudo apt-get install gcc-arm-none-eabi binutils-arm-none-eabi gdb-arm-none-eabi
-    
-    export TL_PATH="/cygdrive/e/gcc-arm-none-eabi-9-2019-q4-major-win32"
-    export PATH="$TL_PATH/bin:$PATH"
-    
+    sudo apt-get install gcc-arm-none-eabi binutils-arm-none-eabi
+
 Before build
 
 	export CROSS_COMPILE=arm-none-eabi-
