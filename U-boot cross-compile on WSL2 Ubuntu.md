@@ -25,6 +25,6 @@ Before build
 
 	ls -l configs/rpi* // Using raspi in here
 	
-    	make rpi_0_w_defconfig
-    	make
+	make rpi_0_w_defconfig
+	make
     
