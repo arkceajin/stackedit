@@ -8,12 +8,12 @@
 ### Cross compile U-boot
 Install dependencies
 
-    	sudo apt-get update
-    	sudo apt install make gcc bison flex
+	sudo apt-get update
+	sudo apt install make gcc bison flex
     
 Install arm-toolchain
 
-    	sudo apt-get install gcc-arm-none-eabi binutils-arm-none-eabi
+	sudo apt-get install gcc-arm-none-eabi binutils-arm-none-eabi
 
 Before build
 
@@ -60,4 +60,6 @@ Confirm the contents of img
 
 	mdir  -i rasp-uboot.img -/
 
-	
+Stat QEMU
+
+	qemu-system-arm -M raspi2 -nographic -kernel rasp-uboot.img -dtb bcm2709-rpi-2-b.dtb
