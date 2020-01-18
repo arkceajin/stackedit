@@ -62,4 +62,4 @@ Confirm the contents of img
 
 Stat QEMU
 
-	qemu-system-arm -M raspi2 -nographic -kernel rasp-uboot.img -dtb bcm2709-rpi-2-b.dtb
+	qemu-system-arm -M raspi2 -nographic -kernel rasp-uboot.img
