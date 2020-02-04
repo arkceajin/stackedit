@@ -1,8 +1,7 @@
-`const Bytes& a2 = func_a();` weird
-`Bytes a1 = func_a();` better
-
-`const Bytes& a2 = a;` right
-`Bytes a1 = a;` right
+* `const Bytes& a2 = func_a();` weird
+* `Bytes a1 = func_a();` better
+* `const Bytes& a2 = a;` right
+* `Bytes a1 = a;` right
 
 ```
 #include <chrono>
