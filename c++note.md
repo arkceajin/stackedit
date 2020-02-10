@@ -1,5 +1,6 @@
 1. std::move
-    after **C++11**, could
+
+    After **C++11**, could
 
     `void set_name(const std::string& name);`
 
